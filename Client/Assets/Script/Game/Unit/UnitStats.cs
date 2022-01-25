@@ -30,17 +30,6 @@ public class UnitStats : MonoBehaviour
         Armour = statics.Armour;
         Resistance = statics.Resistance;
         AbilityPower = statics.AbilityPower;
-
     }
 }
-public class Statics
-{
-    public byte UnitId;
-    public int CreateId;
-    public byte AttackDamage;
-    public float AttackSpeed;
-    public int Health;
-    public byte Armour;
-    public byte Resistance;
-    public byte AbilityPower;
-}
+

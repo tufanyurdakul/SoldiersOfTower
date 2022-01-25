@@ -65,7 +65,6 @@ public class UnitsMovement : MonoBehaviour
                 {
                     if (enemyUnitFunctions != null && enemyStats != null && enemyState == 0)
                     {
-                        Debug.Log("a");
                         SendServerAttack2 ssa = new SendServerAttack2();
                         int physicalDamage = unitFunctions.HitPhysicalDamage(stats.AttackDamage);
                         ssa.damage = physicalDamage;

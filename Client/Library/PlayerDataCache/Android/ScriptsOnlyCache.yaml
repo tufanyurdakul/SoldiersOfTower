@@ -15,6 +15,8 @@ ScriptsOnlyBuild:
     - PlayerData6
     - PlayerData7
     - PlayerData8
+    - PlayerData9
+    - RockEffect
     - Unit10Arrow
     - UnitClicks
     - UnitData
@@ -27,6 +29,7 @@ ScriptsOnlyBuild:
     - UnitMovement6
     - UnitMovement7
     - UnitMovement8
+    - UnitMovement9
     - UnitStats
     - UnitsMovement
     - infoData
@@ -51,8 +54,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -164,6 +169,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14522}
     - Class: 114
       Script: {instanceID: 14654}
+    - Class: 114
+      Script: {instanceID: 22952}
+    - Class: 114
+      Script: {instanceID: 23196}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -293,6 +302,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14654}
     - Class: 114
       Script: {instanceID: 14724}
+    - Class: 114
+      Script: {instanceID: 22952}
+    - Class: 114
+      Script: {instanceID: 23196}
+    - Class: 114
+      Script: {instanceID: 23358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1074,7 +1089,7 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 67cd2844e402a70721ba5c13c3497b2c
+      Hash: 36de9d1996afc4438f11910483476a38
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UnitClicks
@@ -1186,6 +1201,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerData9
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnitMovement9
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RockEffect
   platform: 13
   scenePathNames:
   - Assets/Scenes/another.unity
